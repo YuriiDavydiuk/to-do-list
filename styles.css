@@ -1,52 +1,51 @@
-
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-      padding: 20px;
+  padding: 20px;
 }
-.conteiner{
-     max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.conteiner {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1 {
   text-align: center;
-      color: #333
+  color: #333;
 }
 
 .todo-list {
   background-color: #ffffff;
-  
+
   list-style-type: none;
-   margin-left: auto;
-    margin-right: auto;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 .sub-item-link {
   text-decoration: none;
 }
 a:hover {
-  color:red;
+  color: red;
 }
 .sub-item {
-  list-style-type: square;}
-  .todo-list li {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    padding: 10px;
-    background-color: #e5f1e5;
-    border-radius: 10px;
-    position: relative;
+  list-style-type: square;
+}
+.todo-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  padding: 10px;
+  background-color: #e5f1e5;
+  border-radius: 10px;
+  position: relative;
 }
 a:active {
-  color: red;}
-  a:focus {
+  color: red;
+}
+a:focus {
   outline: 2px solid blue; /* customize thickness and color */
 }
-  a:visited {
+a:visited {
   color: purple; /* or any color you like */
 }
-
